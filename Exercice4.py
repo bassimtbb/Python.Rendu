@@ -1,0 +1,5 @@
+string = input("Saisissez une chaîne ")
+letters = sum(1 for c in string if c.isalpha())
+digits = sum(1 for c in string if c.isdigit())
+print(f"Lettres {letters}")
+print(f"Chiffres {digits}")
